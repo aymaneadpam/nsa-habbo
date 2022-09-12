@@ -1,0 +1,55 @@
+body {
+    Margin: 0;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    padding: 0px 0px 10px 0px;
+}
+
+header img {
+    width: 250px;
+    height: 200px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+Header ul {
+    list-style: none;
+}
+
+Header ul li {
+    display: inline-block;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+Header ul li a {
+    text-decoration: none;
+    Color: Red;
+    background-color: white;
+    padding:10px 10px ;
+}
+
+header ul li:hover a {
+    background-color: red;
+    color: white;
+    transition: 0.3S all;
+}
+
+a.contact {
+    background-color: red;
+    color: white;
+}
